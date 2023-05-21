@@ -24,7 +24,7 @@ export default function Header({}: Props) {
                 duration: 1.5
             }}
             className='flex flex-row items-center'>
-            <SocialIcon url="https://www.github.com" 
+            {/* <SocialIcon url="https://www.github.com" 
             fgColor='gray'
             bgColor='transparent'
             />
@@ -35,7 +35,7 @@ export default function Header({}: Props) {
             <SocialIcon url="https://www.linkedin.com" 
             fgColor='gray'
             bgColor='transparent'
-            />                        
+            />                         */}
         </motion.div>
 
 
@@ -64,12 +64,12 @@ export default function Header({}: Props) {
                 bgColor='transparent'
                 />
 
-                <Link href='#contact'>
+                <a href='#contact'>
 
                     <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
-                        Get In Touch    
+                        Связаться
                     </p>
-                </Link>
+                </a>
             </motion.div>
 
 

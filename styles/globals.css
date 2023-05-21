@@ -47,6 +47,17 @@
     scroll-behavior: smooth;
     /* margin: 50px 0; */
   }
+  .landscape-warning {
+    display: none;
+  }
+  @media (orientation: landscape) and (max-height: 750px){
+    body * {
+      display: none;
+    }
+    .landscape-warning {
+      display: block;
+    }
+  }
 
   .container {
     max-width: 1400px;

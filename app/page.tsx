@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Link from 'next/link'
 import About from '../components/About'
 import ContactMe from '../components/ContactMe'
 import Header from '../components/Header'
@@ -11,17 +9,14 @@ import specialist from "../public/specialist.png"
 
 export default function Home() {
   return (
-    <div className='bg-[#363636] text-white h-screen snap-y snap-mandatory
+    <div className='page-base bg-[#363636] text-white h-screen snap-y snap-mandatory
     overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
      scrollbar-thumb-[#0000ff]/80'>
-      <Head>
-        <title>DIVAR</title>
-      </Head>
-
       <Header/>
 
       <section id="hero" className='snap-start'>
         <Hero/>
+        <p className="landscape-warning">Поверни телефон по вертикали пожалуйста :)</p>
       </section>
 
       <section id="about" className='snap-center'>
@@ -45,7 +40,7 @@ export default function Home() {
       </section>
 
       
-      <Link
+      <a
       href='#hero'>
         <footer className='sticky bottom-8 justify-end flex w-full cursor-pointer pr-10' >
           <div className='flex items-center justify-center'>
@@ -55,7 +50,7 @@ export default function Home() {
             src={specialist.src} alt="" />
           </div>
         </footer>
-      </Link>
+      </a>
 
     </div>
   )
