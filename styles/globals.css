@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-  .heroButton {
+  /* .heroButton {
     @apply px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
-        tracking-widest text-white transition-all hover:border-[#dddd4d]
-        hover:text-[#dddd4d];
-  }
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff];
+  } */
 
   .contactInput {
     @apply outline-none bg-slate-400/10 rounded-sm border-b py-3 px-3 w-1/2
@@ -44,6 +44,7 @@
     font: 16px / 24px "Rubik", sans-serif;
     color: var(--black);
     background: var(--platinum);
+    scroll-behavior: smooth;
     /* margin: 50px 0; */
   }
 

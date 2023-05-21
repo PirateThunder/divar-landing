@@ -47,7 +47,7 @@ export default function Home() {
       
       <Link
       href='#hero'>
-        <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full cursor-pointer pr-10' >
+        <footer className='sticky bottom-8 justify-end flex w-full cursor-pointer pr-10' >
           <div className='flex items-center justify-center'>
             <img
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0

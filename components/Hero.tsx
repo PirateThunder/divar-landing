@@ -43,21 +43,31 @@ export default function Hero({}: Props) {
         </h1>
 
         <div className='pt-5 '>
-          <Link href='#about'>
-            <button className='heroButton'>О нас</button>
-          </Link>
-          <Link href='#experience'>
-            <button className='heroButton'>Команда</button>
-          </Link>
-          <Link href='#skills'>
-            <button className='heroButton'>Скиллы</button>
-          </Link>
-          <Link href='#projects'>
-            <button className='heroButton'>Хакатоны</button>
-          </Link>
-          <Link href='#contact'>
-            <button className='heroButton'>Форма</button>
-          </Link>
+          <a href='#about'>
+            <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff]'>О нас</button>
+          </a>
+          <a href='#experience'>
+            <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff]'>Команда</button>
+          </a>
+          <a href='#skills'>
+            <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff]'>Скиллы</button>
+          </a>
+          <a href='#projects'>
+            <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff]'>Хакатоны</button>
+          </a>
+          <a href='#contact'>
+            <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
+    tracking-widest text-white transition-all hover:border-[#0000ff]
+    hover:text-[#0000ff]'>Форма</button>
+          </a>
           
         </div>
       </div>
