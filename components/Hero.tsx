@@ -53,11 +53,11 @@ export default function Hero({}: Props) {
     tracking-widest text-white transition-all hover:border-[#0000ff]
     hover:text-[#0000ff]'>Команда</button>
           </a>
-          <a href='#skills'>
+          {/* <a href='#skills'>
             <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
     tracking-widest text-white transition-all hover:border-[#0000ff]
     hover:text-[#0000ff]'>Скиллы</button>
-          </a>
+          </a> */}
           <a href='#projects'>
             <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
     tracking-widest text-white transition-all hover:border-[#0000ff]
@@ -66,7 +66,7 @@ export default function Hero({}: Props) {
           <a href='#contact'>
             <button className='px-6 py-2 border border-[#363636] rounded-full uppercase text-xs
     tracking-widest text-white transition-all hover:border-[#0000ff]
-    hover:text-[#0000ff]'>Форма</button>
+    hover:text-[#0000ff]'>Связь</button>
           </a>
           
         </div>

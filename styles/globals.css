@@ -51,11 +51,15 @@
     display: none;
   }
   @media (orientation: landscape) and (max-height: 750px){
-    body * {
+    .page-base {
       display: none;
     }
     .landscape-warning {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /*?*/
+      flex-direction: column;
     }
   }
 
@@ -71,6 +75,10 @@
     margin-bottom: 1em;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   .cards, .team {
     display: flex;
     padding: 25px 0px;
@@ -84,21 +92,31 @@
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px;
-    background: var(--blue);
+    width: 500px; /*?*/
+    /* background: var(--blue); */
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
     transition: all 0.2s;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  @media (max-width: 500px){
+    .card {
+      width: 300px;
+    }
   }
 
   .card:not(:last-child) {
     margin-right: 10px;
   }
 
-  .card:hover {
+  /* .card:hover {
     color: var(--white);
     background: var(--skyblue);
-  }
+  } */
 
   .card .card-title {
     font-size: 20px;

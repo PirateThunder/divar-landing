@@ -6,9 +6,18 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 import specialist from "../public/specialist.png"
+import scala from "../public/scala.gif"
 
 export default function Home() {
   return (
+    <>
+    {/* <div className="landscape-warning flex justify-center items-center h-full">
+      Поверни телефон по вертикали пожалуйста :)
+    </div> */}
+    <div className="landscape-warning">
+      <p style={{textAlign: 'center'}}>Поверни телефон по вертикали пожалуйста :)</p>
+      <img style={{marginLeft: 'calc(50%-150px)'}} width={300} height={300} src={scala.src} alt="scala"/>
+    </div>
     <div className='page-base bg-[#363636] text-white h-screen snap-y snap-mandatory
     overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
      scrollbar-thumb-[#0000ff]/80'>
@@ -16,7 +25,6 @@ export default function Home() {
 
       <section id="hero" className='snap-start'>
         <Hero/>
-        <p className="landscape-warning">Поверни телефон по вертикали пожалуйста :)</p>
       </section>
 
       <section id="about" className='snap-center'>
@@ -27,9 +35,9 @@ export default function Home() {
         <WorkExperience/>
       </section>
       
-      <section id="skills" className='snap-start'>
+      {/* <section id="skills" className='snap-start'>
         <Skills/>
-      </section>
+      </section> */}
 
       <section id="projects" className='snap-start'>
         <Projects/>
@@ -53,5 +61,6 @@ export default function Home() {
       </a>
 
     </div>
+    </>
   )
 }
