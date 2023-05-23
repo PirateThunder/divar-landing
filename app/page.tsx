@@ -48,17 +48,18 @@ export default function Home() {
       </section>
 
       
-      <a
-      href='#hero'>
-        <footer className='sticky bottom-8 justify-end flex w-full cursor-pointer pr-10' >
+      
+        <footer className='sticky bottom-8 justify-end flex w-full pr-10' >
           <div className='flex items-center justify-center'>
+          <a
+            href='#hero'>
             <img
-            className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
+            className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 
             cursor-pointer '
             src={specialist.src} alt="" />
+          </a>
           </div>
         </footer>
-      </a>
 
     </div>
     </>
