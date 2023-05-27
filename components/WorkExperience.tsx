@@ -30,6 +30,7 @@ function WorkExperience({}: Props) {
   <div className='container'>
 
   <ul className="cards">
+    {/* ml 20 */}
     <ExperienceCard style={{marginLeft: 20}} img_src={Denis.src} name="Денис Шайхльбарин" 
       role="Android Developer, UI/UX Designer" 
       skills="Java, Kotlin, Android, Dart, Flutter, Android Jetpack (Navigation, Composed, Hilt, Room etc.), AirBnB Epoxy, Glide, RxJava 2, RxAndroid, RxKotlin, Kotlin Coroutines, Ktor, Gradle, Maven, OkHttp 3, Retrofit 2, MVVM, MVI, MVP, Material UI, Figma, Adobe XD"/>
