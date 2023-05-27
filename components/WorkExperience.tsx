@@ -35,7 +35,7 @@ function WorkExperience({}: Props) {
       skills="Java, Kotlin, Android, Dart, Flutter, Android Jetpack (Navigation, Composed, Hilt, Room etc.), AirBnB Epoxy, Glide, RxJava 2, RxAndroid, RxKotlin, Kotlin Coroutines, Ktor, Gradle, Maven, OkHttp 3, Retrofit 2, MVVM, MVI, MVP, Material UI, Figma, Adobe XD"/>
     <ExperienceCard img_src={Ilya.src} name="Илья Хакимов" 
       role="Frontend Next.js Developer" 
-      skills="Next.js, React, TailwindCSS, MaterialUI, axios, zustand, react-query, react-hook-form, Framer Motion, HTTP(S), HTML/CSS/JS"/>
+      skills="TypeScript, Next.js, React, TailwindCSS, MaterialUI, axios, zustand, react-query, react-hook-form, Framer Motion, HTTP(S), HTML/CSS/JS"/>
     <ExperienceCard img_src={Vanya.src} name="Ваня Ермолов" 
       role="Data Scientist, Data Engineer, Chatbot Developer" 
       skills="Python, C++, C#, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Tensor-Flow, Keras, PyTorch, Dask, Aiogram, VK-API"/>

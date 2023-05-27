@@ -49,7 +49,7 @@ export default function Home() {
 
       
       
-        <footer className='sticky bottom-8 justify-end flex w-full pr-10' >
+        <footer className='sticky bottom-8 justify-end flex w-full нpr-10' >
           <div className='flex items-center justify-center'>
           <a
             href='#hero'>
