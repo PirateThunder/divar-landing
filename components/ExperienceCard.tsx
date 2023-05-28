@@ -9,11 +9,11 @@ type Props = {
     skills: string
 }
 
-export default function ExperienceCard({img_src, name, role, skills}: Props) {
+export default function ExperienceCard({img_src, name, role, skills}: any) {
     return (
         <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-        w-[350px] md:w-[450px] xl:w-[650px] snap-center bg-[#292929 p-10] hover:opacity-100
-        opacity-90 cursor-pointer transition-opacity duration-200 overflow-hidden px-2'>
+        w-[250px] md:w-[350px] xl:w-[550px] snap-center bg-[#292929 p-10] hover:opacity-100
+        opacity-90 cursor-pointer transition-opacity duration-200 overflow-hidden px-1'>
             {/*w-[500px] md:w-[600px] xl:w-[900px]*/}
             <motion.img
             initial={{ 

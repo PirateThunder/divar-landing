@@ -102,10 +102,11 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    margin-left: 20px;
   }
   @media (max-width: 500px){
     .card {
-      width: 300px;
+      width: 350px;
     }
   }
 
@@ -157,7 +158,6 @@
   }
 
   .cards::-webkit-scrollbar-thumb {
-    /* background: var(--yellow); */
     background: blue;
   }
 

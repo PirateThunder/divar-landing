@@ -49,17 +49,25 @@ export default function Home() {
 
       
       
-        <footer className='sticky bottom-8 justify-end flex w-full pb-10 pr-10' >
+        {/* <footer className='sticky bottom-8 justify-end flex w-full pb-10 pr-10' >
           <div className='flex items-center justify-center'>
           <a
             href='#hero'>
             <img
-            className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 
-            cursor-pointer '
+            className='sticky h-10 w-10 rounded-full filter grayscale hover:grayscale-0 
+            cursor-pointer botton-10 right-10'
             src={specialist.src} alt="" />
           </a>
           </div>
-        </footer>
+        </footer> */}
+
+        <a
+            href='#hero'>
+            <img
+            className='fixed h-10 w-10 rounded-full filter grayscale hover:grayscale-0 
+            cursor-pointer bottom-20 right-10'
+            src={specialist.src} alt="" />
+          </a>
 
     </div>
     </>
