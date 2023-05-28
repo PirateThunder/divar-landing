@@ -14,10 +14,7 @@ export default function Home() {
     {/* <div className="landscape-warning flex justify-center items-center h-full">
       Поверни телефон по вертикали пожалуйста :)
     </div> */}
-    <div className="landscape-warning">
-      <p style={{textAlign: 'center'}}>Поверни телефон по вертикали пожалуйста :)</p>
-      <img style={{marginLeft: 'calc(50%-150px)'}} width={300} height={300} src={scala.src} alt="scala"/>
-    </div>
+    
     <div className='page-base bg-[#363636] text-white h-screen snap-y snap-mandatory
     overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
      scrollbar-thumb-[#0000ff]/80'>
@@ -69,6 +66,11 @@ export default function Home() {
             src={specialist.src} alt="" />
           </a>
 
+    </div>
+
+    <div className="landscape-warning">
+      <p style={{textAlign: 'center'}}>Поверни телефон по вертикали пожалуйста :)</p>
+      <img style={{marginLeft: 'calc(50%-150px)'}} width={300} height={300} src={scala.src} alt="scala"/>
     </div>
     </>
   )
